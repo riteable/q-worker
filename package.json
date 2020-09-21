@@ -1,6 +1,6 @@
 {
   "name": "@riteable/q-worker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Rate limit and queue async functions.",
   "main": "index.js",
   "scripts": {
