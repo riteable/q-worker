@@ -46,7 +46,7 @@ function qWorker (options = {}) {
     } catch (err) {
       return _emitter.emit(`error:${i}`, err)
     } finally {
-      setTimeout(() => _removeProcessingTask(i))
+      setTimeout(() => _removeProcessingTask(i), _delay)
     }
   }
 
