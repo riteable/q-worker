@@ -1,6 +1,6 @@
 {
   "name": "q-worker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rate limit and queue async functions.",
   "main": "index.js",
   "scripts": {
