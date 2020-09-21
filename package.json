@@ -1,5 +1,5 @@
 {
-  "name": "q-worker",
+  "name": "@riteable/q-worker",
   "version": "1.0.1",
   "description": "Rate limit and queue async functions.",
   "main": "index.js",
