@@ -38,13 +38,13 @@ test('Should emit done event', async (t) => {
 
   const task = incrementTask()
 
-  queue.add(task)
+  const task1 = queue.add(task)
+  const task2 = queue.add(task)
+  const task3 = queue.add(task)
 
   const result = await new Promise((resolve) => {
-    queue.events.on('done', () => resolve(true))
-
-    setTimeout(() => resolve(false), timeout * 2)
+    queue.events.on('done', () => resolve(Promise.all([task1, task2, task3])))
   })
 
-  t.true(result)
+  t.deepEqual(result, [1, 2, 3])
 })
