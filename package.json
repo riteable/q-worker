@@ -6,6 +6,11 @@
   "scripts": {
     "test": "ava"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/riteable/q-worker"
+  },
+  "homepage": "https://github.com/riteable/q-worker",
   "keywords": [
     "queue",
     "rate limit",
