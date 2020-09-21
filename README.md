@@ -6,6 +6,14 @@ Rate limit and queue async functions.
 
 This module lets you queue up async tasks to be executed at a predetermined interval. For example, if you're working with a REST API that's rate limited, you can use this module to only execute requests X amount of times per second.
 
+## Install
+
+You can install using npm:
+
+```
+$ npm i @riteable/q-worker
+```
+
 ## Usage
 
 ```
