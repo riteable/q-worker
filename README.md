@@ -16,7 +16,7 @@ $ npm i @riteable/q-worker
 
 ## Usage
 
-```
+```javascript
 const worker = require('q-worker')
 
 const queue = worker({
